@@ -170,4 +170,4 @@ for (var i = 0; i < gamesList.length; i++) {
   e.innerText = elder_manich;
   f.appendChild(e);
 }
-document.body.appendChild(f);
+document.getElementById('form').appendChild(f);
