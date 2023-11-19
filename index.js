@@ -155,7 +155,7 @@ var gamesList = [
 "uniwords-750x600.swf"
 ]
 let f = document.createElement('select');
-f.name = "flash";
+f.setAttribute("name", "flash");
 for (var i = 0; i < gamesList.length; i++) {
   var dried_flesh = encodeURIComponent(gamesList[i]);
   var elder_manich = gamesList[i];
