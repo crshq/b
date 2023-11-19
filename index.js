@@ -154,19 +154,13 @@ var gamesList = [
 "unfair-mario.swf",
 "uniwords-750x600.swf"
 ]
-
-// Function to encode a string to be used in a URL query
-function encodeToQuery(str) {
-  return encodeURIComponent(str);
-}
 let f = document.createElement('select');
-// Loop through each entry and add the HTML code
+f.name = "flash";
 for (var i = 0; i < gamesList.length; i++) {
-  var encodedEntry = encodeToQuery(gamesList[i]);
-  var value = encodedEntry;
+  var dried_flesh = encodeURIComponent(gamesList[i]);
   var elder_manich = gamesList[i];
   var e = document.createElement('option');
-  e.value = value;
+  e.value = dried_flesh;
   e.innerText = elder_manich;
   f.appendChild(e);
 }
