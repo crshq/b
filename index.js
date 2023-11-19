@@ -105,7 +105,6 @@ var gamesList = [
 "RobotsVSZombi.swf",
 "RodHotsHotRodRacing.swf",
 "RollerRider.swf",
-"Run 2.swf",
 "Run.swf",
 "RunDoggyRun.swf",
 "SSF2 1.1.0.swf",
