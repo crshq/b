@@ -152,7 +152,7 @@ var gamesList = [
 "unfair-mario.swf",
 "uniwords-750x600.swf"
 ]
-document.getElementById('header').innerHTML = gamesList.length + "-Game Website"
+document.getElementById('header').innerHTML = String(gamesList.length) + "-Game Website"
 let f = document.createElement('select');
 f.setAttribute("name", "flash");
 for (var i = 0; i < gamesList.length; i++) {
